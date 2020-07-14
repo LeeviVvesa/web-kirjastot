@@ -1,0 +1,77 @@
+{
+    "asiakas": [
+        {
+            "id": 1,
+            "Nimi": "Esa",
+            "Osoite": "Satamakatu 1",
+            "Postinumero": "70100",
+            "Postitoimipaikka": "Kuopio",
+            "Puhnro": "0505997027",
+            "Tyyppi_id": "10",
+            "Tyyppi_selite": "Uusi asiakas"
+        },
+        {
+            "id": 2,
+            "Nimi": "Essi",
+            "Osoite": "Mikrokatu 33",
+            "Postinumero": "70800",
+            "Postitoimipaikka": "Kuopio",
+            "Puhnro": "0505997023",
+            "Tyyppi_id": "10",
+            "Tyyppi_selite": "Uusi asiakas"
+        },
+        {
+            "id": 3,
+            "Nimi": "Aapo",
+            "Osoite": "Kassikatu 11",
+            "Postinumero": "70200",
+            "Postitoimipaikka": "Kuopio",
+            "Puhnro": "0505997021",
+            "Tyyppi_id": "10",
+            "Tyyppi_selite": "Uusi asiakas"
+        },
+        {
+            "id": 4,
+            "Nimi": "Taavetti",
+            "Osoite": "Muussipolku 66",
+            "Postinumero": "60100",
+            "Postitoimipaikka": "Tuusniemi",
+            "Puhnro": "0505997022",
+            "Tyyppi_id": "20",
+            "Tyyppi_selite": "Kanta-asiakas"
+        },
+        {
+            "id": 5,
+            "Nimi": "Hilima",
+            "Osoite": "Kaikukatu 9",
+            "Postinumero": "70600",
+            "Postitoimipaikka": "Kuopio",
+            "Puhnro": "0505997020",
+            "Tyyppi_id": "20",
+            "Tyyppi_selite": "Kanta-asiakas"
+        },
+        {
+            "id": 6,
+            "Nimi": "Jalmari",
+            "Osoite": "Öylättimäki 32",
+            "Postinumero": "70900",
+            "Postitoimipaikka": "Kuopio",
+            "Puhnro": "0505997029",
+            "Tyyppi_id": "20",
+            "Tyyppi_selite": "Kanta-asiakas"
+        }
+    ],
+    "tyypit": [
+        {
+          "id": 10,
+          "lyhenne": "ua",
+          "selite": "Uusi asiakas"
+          
+        },
+        {
+          "id": 20,
+          "lyhenne": "ka",
+          "selite": "Kanta-asiakas"
+        }
+      ]
+}

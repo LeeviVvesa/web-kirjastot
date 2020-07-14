@@ -1,0 +1,54 @@
+header,footer,nav,article,aside{
+    padding: 100px;
+
+}
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 700px;
+}
+header {
+    border-style: solid;
+    border-color: blue;
+    text-align: center;
+    color: blue;
+    padding: 30px;
+    margin: 5px;
+}
+footer {
+  border-style: solid;
+  border-color:purple;
+  color: purple;
+  text-align: center;
+  padding: 100px;
+  margin: 5px;
+}
+main {
+   flex: 1;
+    display: flex;
+}
+nav {
+    order: -1;
+    border-style: solid;
+    border-color: grey;
+    color: grey; 
+    margin: 5px;
+    padding: 40px;
+}
+aside {
+  
+    border-style: solid;
+    border-color: green;
+    color: green; 
+    margin: 5px;
+    padding: 40px;
+}
+article {
+    flex: 1;
+    border-style: solid;
+    border-color: red;
+    color: red;
+    padding: 50px;
+    margin: 5px;
+}
